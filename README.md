@@ -20,27 +20,38 @@ Before you begin, ensure you have met the following requirements:
 
 ## Installation
 
-Clone the repository to your local machine:
+# From GitHub
+
+Clone and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/gmail-label-email-processor.git
+git clone https://github.com/SokinjoNS/gmail-label-email-processor.git
 cd gmail-label-email-processor
+pip install -r requirements.txt
 ```
 
-Install the required dependencies:
-```
-bash
-Copy code
-pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+# From PyPI
+
+Install directly:
+
+```bash
+pip install gmail-label-email-processor
 ```
 
 ## Usage
 
-To use the Gmail Label Email Processor, follow these steps:
+To use the Gmail Label Email Processor, follow these steps:After installation, configure credentials.json in the project's root and modify main.py or use the command-line interface:
+
+```bash
+gmail-processor --label "Your Label Name"
+```
+Replace "Your Label Name" with the actual label you're interested in.
 
 Place your credentials.json file in the root directory of the project.
-Modify the main.py script to specify the label you want to process.
-Run the script.
+
+## Contributing
+
+Contributions are welcome.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
