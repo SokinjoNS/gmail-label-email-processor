@@ -40,7 +40,7 @@ pip install gmail-label-email-processor
 
 ## Usage
 
-To use the Gmail Label Email Processor, follow these steps:After installation, configure credentials.json in the project's root and modify main.py or use the command-line interface:
+After installation, configure credentials.json in the project's root and modify main.py or use the command-line interface:
 
 ```bash
 gmail-processor --label "Your Label Name"
