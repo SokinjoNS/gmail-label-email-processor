@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="gmail-label-email-processor",
-    version="1.0.1",
+    version="1.0.2",
     author="SokinjoNS",
     author_email="sokinjo.155@gmail.com",
     description="A comprehensive toolkit for processing emails via Gmail API, including authentication, label management, message processing, and data exporting.",
@@ -15,10 +15,10 @@ setup(
         'google-api-python-client>=2.88.0',
         'google-auth-httplib2>=0.1.0',
         'google-auth-oauthlib>=1.0.0',
-        'gmail_api_auth==0.1.1',
-        'gmail_label_manager==0.1.1',
-        'gmail_message_processor==0.1.1',
-        'data_exporter==0.1.1', 
+        'gmail_api_auth==0.1.2',
+        'gmail_label_manager==0.1.2',
+        'gmail_message_processor==0.1.2',
+        'data_exporter==0.1.2', 
 
     ],
     entry_points={
