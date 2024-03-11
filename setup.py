@@ -9,6 +9,7 @@ setup(
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
     url="https://github.com/SokinjoNS/gmail-label-email-processor",
+    project_urls":{"Source":"https://github.com/SokinjoNS/gmail-label-email-processor"},
     packages=find_packages(),
     install_requires=[
         'google-api-python-client>=2.88.0',
